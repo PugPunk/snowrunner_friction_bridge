@@ -12,10 +12,10 @@
 <Truck Type="Trailer">
 	<TruckData>
 		<Wheels>
-			<Wheel _template="DollyWheel" Pos="(2.2; .65; 1)" />
-			<Wheel _template="DollyWheel" Pos="(2.2; .65; 1)" RightSide="true" />
-			<Wheel _template="DollyWheel" Pos="(-2.1; .65; 1)" />
-			<Wheel _template="DollyWheel" Pos="(-2.1; .65; 1)" RightSide="true" />				
+			<Wheel _template="DollyWheel" Pos="(4.87; 1.63; 1)" />
+			<Wheel _template="DollyWheel" Pos="(4.87; 1.63; 1)" RightSide="true" />
+			<Wheel _template="DollyWheel" Pos="(-4.8; 1.88; 1)" />
+			<Wheel _template="DollyWheel" Pos="(-4.8; 1.88; 1)" RightSide="true" />				
 		</Wheels>
 		<OcclusionMap
 			HalfSizeZ="1.8"
@@ -29,11 +29,11 @@
 		<Camera Center="(0; 0; 0)" />
 	</TruckData>	
 
-	<PhysicsModel Mesh="trucks/tuning/platform">
+	<PhysicsModel Mesh="trucks/tuning/long">
 		<Body
 			CenterOfMassOffset="(0; 0; 0)"
 			ImpactType="Truck"
-			Mass="4000"
+			Mass="1000"
 			Friction="3"						
 		>
 		</Body>
@@ -41,25 +41,17 @@
 	<Landmark Mesh="landmarks/cargo_unit_concrete_slab_2_lmk" MinScale="1.8" MaxScale="3.8" />
 	<GameData Price="575">
 		<UiDesc
-			UiDesc="JigSaw Bridge (platform)"
+			UiDesc="Friction Bridge (long)"
 			UiIcon30x30="trailerSemiImg30"
 			UiIcon40x40="trailerSemiImg"
-			UiName="JigSaw Bridge (platform)"
+			UiName="Friction Bridge (long)"
 		/>
-		<InstallSocket Offset="(5; .35; 0)" Type="Trailer" />		
+		<InstallSocket Offset="(5; 1.88; 0)" Type="Trailer" />		
 		<WinchSocket Pos="(0; 1.44; 0)" />		
 		<CraneSocket Pos="(0; 1.44; 0)" />
 		<WinchSocket Pos="(-2.2; 1.44; 0)" />		
 		<CraneSocket Pos="(-2.2; 1.44; 0)" />
-		<WinchSocket Pos="(3.26; 1.44; 0)" />		
-		<CraneSocket Pos="(3.26; 1.44; 0)" />
-		<WinchSocket Pos="(2.32; .98; 1.5)" />		
-		<CraneSocket Pos="(2.32; .98; 1.5)" />						
-		<WinchSocket Pos="(2.32; .98; -1.5)" />		
-		<CraneSocket Pos="(2.32; .98; -1.5)" />						
-		<WinchSocket Pos="(-2.6; .98; 1.5)" />		
-		<CraneSocket Pos="(-2.6; .98; 1.5)" />						
-		<WinchSocket Pos="(-2.6; .98; -1.5)" />		
-		<CraneSocket Pos="(-2.6; .98; -1.5)" />						
+		<WinchSocket Pos="(2.2; 1.44; 0)" />		
+		<CraneSocket Pos="(2.2; 1.44; 0)" />
 	</GameData>
 </Truck>

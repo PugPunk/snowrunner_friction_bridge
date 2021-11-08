@@ -34,28 +34,24 @@
 			CenterOfMassOffset="(0; 0; 0)"
 			ImpactType="Truck"
 			Mass="4000"
-			Friction="3"			
+			Friction="6"			
 		>
 		</Body>
 	</PhysicsModel>
 	<Landmark Mesh="landmarks/cargo_unit_concrete_slab_2_lmk" MinScale="1.8" MaxScale="3.8" />
 	<GameData Price="575">
 		<UiDesc
-			UiDesc="JigSaw Bridge (base)"
+			UiDesc="Friction Bridge (heavy base)"
 			UiIcon30x30="trailerSemiImg30"
 			UiIcon40x40="trailerSemiImg"
-			UiName="JigSaw Bridge (base)"
+			UiName="Friction Bridge (heavy base)"
 		/>
 		<InstallSocket Offset="(5; .7; 0)" Type="Trailer" />		
 		<WinchSocket Pos="(0; 1.48; 0)" />		
 		<CraneSocket Pos="(0; 1.48; 0)" />						
-		<WinchSocket Pos="(-.68; 1.08; 1.5)" />		
-		<CraneSocket Pos="(-.68; 1.08; 1.5)" />						
-		<WinchSocket Pos="(-.68; 1.08; -1.5)" />		
-		<CraneSocket Pos="(-.68; 1.08; -1.5)" />						
-		<WinchSocket Pos="(.68; 1.08; 1.5)" />		
-		<CraneSocket Pos="(.68; 1.08; 1.5)" />						
-		<WinchSocket Pos="(.68; 1.08; -1.5)" />		
-		<CraneSocket Pos="(.68; 1.08; -1.5)" />						
+		<WinchSocket Pos="(-.55; 1.48; 0)" />		
+		<CraneSocket Pos="(-.55; 1.48; 0)" />						
+		<WinchSocket Pos="(.55; 1.48; 0)" />		
+		<CraneSocket Pos="(.55; 1.48; 0)" />						
 	</GameData>
 </Truck>
