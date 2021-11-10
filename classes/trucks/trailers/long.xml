@@ -42,8 +42,6 @@
 	<GameData Price="575">
 		<UiDesc
 			UiDesc="Friction Bridge (long)"
-			UiIcon30x30="trailerSemiImg30"
-			UiIcon40x40="trailerSemiImg"
 			UiName="Friction Bridge (long)"
 		/>
 		<InstallSocket Offset="(5; 1.88; 0)" Type="Trailer" />		
