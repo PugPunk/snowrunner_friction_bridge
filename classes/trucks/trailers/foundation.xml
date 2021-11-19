@@ -33,7 +33,7 @@
 		<Body
 			CenterOfMassOffset="(0; 0; 0)"
 			ImpactType="Truck"
-			Mass="6000"
+			Mass="4000"
 			Friction="6"			
 		>
 		</Body>
