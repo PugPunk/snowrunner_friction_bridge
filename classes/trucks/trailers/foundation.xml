@@ -41,8 +41,8 @@
 	<Landmark Mesh="landmarks/cargo_unit_concrete_slab_2_lmk" MinScale="1.8" MaxScale="3.8" />
 	<GameData Price="575">
 		<UiDesc
-			UiDesc="Friction Bridge (v. heavy foundation)"
-			UiName="Friction Bridge (v. heavy foundation)"
+			UiDesc="Friction Bridge (foundation)"
+			UiName="Friction Bridge (foundation)"
 		/>
 		<InstallSocket Offset="(5; .7; 0)" Type="Trailer" />		
 		<WinchSocket Pos="(0; 1.48; 0)" />		

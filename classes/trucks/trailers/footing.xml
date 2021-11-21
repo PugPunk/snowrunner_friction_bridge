@@ -12,10 +12,10 @@
 <Truck Type="Trailer">
 	<TruckData>
 		<Wheels>
-			<Wheel _template="DollyWheel" Pos="(.97; .65; 2.08)" />
-			<Wheel _template="DollyWheel" Pos="(.97; .65; 2.13)" RightSide="true" />
-			<Wheel _template="DollyWheel" Pos="(-1; .65; 2.08)" />
-			<Wheel _template="DollyWheel" Pos="(-1; .65; 2.13)" RightSide="true" />	
+			<Wheel _template="DollyWheel" Pos="(.97; .65; 1.43)" />
+			<Wheel _template="DollyWheel" Pos="(.97; .65; 1.43)" RightSide="true" />
+			<Wheel _template="DollyWheel" Pos="(-1; .65; 1.43)" />
+			<Wheel _template="DollyWheel" Pos="(-1; .65; 1.43)" RightSide="true" />	
 		</Wheels>
 		<OcclusionMap
 			HalfSizeZ="1.8"
@@ -33,7 +33,7 @@
 		<Body
 			CenterOfMassOffset="(0; 0; 0)"
 			ImpactType="Truck"
-			Mass="6000"
+			Mass="4000"
 			Friction="6"	
 			ForceBodyParams="true"			
 		>
