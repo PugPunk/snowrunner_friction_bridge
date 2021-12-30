@@ -33,7 +33,7 @@
 		<Body
 			CenterOfMassOffset="(0; 0; 0)"
 			ImpactType="Truck"
-			Mass="4000"
+			Mass="6000"
 			Friction="6"	
 			ForceBodyParams="true"			
 		>
@@ -48,23 +48,9 @@
 		<InstallSocket Offset="(5; .7; 0)" Type="Trailer" />		
 		<WinchSocket Pos="(0; 1.48; 0)" />		
 		<CraneSocket Pos="(0; 1.48; 0)" />						
-		<WinchSocket Pos="(-.55; 1.48; 0)" />		
-		<CraneSocket Pos="(-.55; 1.48; 0)" />						
-		<WinchSocket Pos="(.55; 1.48; 0)" />		
-		<CraneSocket Pos="(.55; 1.48; 0)" />						
-		
-		<WinchSocket Pos="(0; 1.48; 2.15)" />		
-		<CraneSocket Pos="(0; 1.48; 2.15)" />						
-		<WinchSocket Pos="(-.55; 1.48; 2.15)" />		
-		<CraneSocket Pos="(-.55; 1.48; 2.15)" />						
-		<WinchSocket Pos="(.55; 1.48; 2.15)" />		
-		<CraneSocket Pos="(.55; 1.48; 2.15)" />						
-
-		<WinchSocket Pos="(0; 1.48; -2.15)" />		
-		<CraneSocket Pos="(0; 1.48; -2.15)" />						
-		<WinchSocket Pos="(-.55; 1.48; -2.15)" />		
-		<CraneSocket Pos="(-.55; 1.48; -2.15)" />						
-		<WinchSocket Pos="(.55; 1.48; -2.15)" />		
-		<CraneSocket Pos="(.55; 1.48; -2.15)" />						
+		<WinchSocket Pos="(-.68; 1.48; 0)" />		
+		<CraneSocket Pos="(-.68; 1.48; 0)" />						
+		<WinchSocket Pos="(.68; 1.48; 0)" />		
+		<CraneSocket Pos="(.68; 1.48; 0)" />						
 	</GameData>
 </Truck>
